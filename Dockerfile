@@ -9,7 +9,6 @@ FROM python:3.8
 # These commands copy your files into the specified directory in the image
 # and set that as the working location
 COPY . /usr/src/snakeapp
-WORKDIR /usr/src/snakeapp
 
 RUN apt-get install libsfml-dev
 
